@@ -1,11 +1,35 @@
-/* 
+.semaforo{
+    display:flex;
+    flex-direction: column;
+    background-color: black;
+    width: 65px;
+    align-items: center;
+    padding: 7px;
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
 
-*/
+
+.redColor {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+
+}
+
+.orangeColor {
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 50%;
+}
+
+.greenColor {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    border-radius: 50%;
+}
+.shine{
+    box-shadow:0 0 20px 10px white ;
+}
